@@ -29,7 +29,7 @@ body {
 
 header { color:beige; background-color: black; 
     padding: 0 1rem;
-    position: fixed;git
+    position: fixed;
     z-index: 99;
     box-shadow: 0 3px 2px 	#faebd7;
     min-width: 100%;
@@ -115,7 +115,7 @@ nav {
     min-width: 100%;
     padding: 0 1rem;
     box-shadow: 0 3px 2px 	#faebd7;
-    z-index: 98;
+    
     left: 0;
     display: none;
     top:100%;
