@@ -122,7 +122,11 @@ img {
     color: chocolate
 }
 
-
+#youtube {
+    text-align: center;
+    min-width: 60vw;
+    padding-top: 40px;
+}
 #social-links {
     text-align: center;
     padding: 20px 0;
