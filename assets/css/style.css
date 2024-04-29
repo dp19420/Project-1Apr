@@ -16,7 +16,7 @@ body {
     flex-direction: column;
 
 /*General project styles */
-    color: ;
+    color: antiquewhite;
     font-family: 'Rubik', sans-serif;
 }
     h1, h2, h3 {
@@ -43,4 +43,14 @@ header a {
     display:flex;
     align-items: baseline;
 }
+/* Main */
 
+main { color:black;
+    flex: 1 0 auto;
+    margin-top: 74px;}
+    
+
+/* Footer */
+
+footer {background-color: rgb(95, 91, 99);
+}
