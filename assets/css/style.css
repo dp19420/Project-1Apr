@@ -15,48 +15,59 @@ body {
     display: flex;
     flex-direction: column;
 
-/*General project styles */
+    /*General project styles */
     color: antiquewhite;
     font-family: 'Rubik', sans-serif;
 }
-    h1, h2, h3 {
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        color:burlywood;
-    }
+
+h1,
+h2,
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: burlywood;
+}
+
 /*Header*/
 
-header { color:beige; background-color: black; 
+header {
+    color: beige;
+    background-color: black;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
-    box-shadow: 0 3px 2px 	#faebd7;
+    box-shadow: 0 3px 2px #faebd7;
     min-width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
+
 header a {
     text-decoration: none;
     color: inherit;
-    display:flex;
+    display: flex;
     align-items: baseline;
 }
+
 /* Main */
 
-main { color:black;
+main {
+    color: black;
     flex: 1 0 auto;
     margin-top: 38px;
-    background-color: darkslategray;}
+    background-color: darkslategray;
+}
 
-    /* Hero */
+/* Hero */
 #hero {
     height: 600px;
     width: 100%;
     background: url("../images/headshot2.webp") no-repeat center center/cover;
     position: relative;
 }
+
 #cover-text {
     background-color: darkslategrey;
     opacity: 0.6;
@@ -70,22 +81,24 @@ main { color:black;
     padding-left: 10px;
 
 }
+
 #introduction {
     margin: auto;
-    
+
 }
 
-#introduction > h2 {
+#introduction>h2 {
     font-size: 280%;
     margin-left: 20px;
     margin-right: 20px;
-   
+
 }
 
 
 /* Footer */
 
-footer {background-color: rgb(95, 91, 99);
+footer {
+    background-color: rgb(95, 91, 99);
 }
 
 /* Menu */
@@ -104,31 +117,35 @@ img {
 #menu li {
     margin-bottom: 1em;
 }
+
 .active {
-    color:chocolate
+    color: chocolate
 }
 
 /* navbar styles with dropdown */
 
 nav {
-    position:absolute;
+    position: absolute;
     background-color: black;
     min-width: 100%;
     padding: 0 1rem;
-    box-shadow: 0 3px 2px 	#faebd7;
-    
+    box-shadow: 0 3px 2px #faebd7;
+
     left: 0;
     display: none;
-    top:100%;
+    top: 100%;
 
 }
+
 /*Nav toggle */
 #nav-toggle:checked~nav {
-    display:block;
+    display: block;
 }
+
 #nav-toggle {
     display: none;
 }
+
 .nav-toggle-label {
     font-size: 2rem;
 }
@@ -140,36 +157,53 @@ nav {
 }
 
 /* Media query: tablets and larger 768px and up*/
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
+
     /*Header*/
     nav {
         display: block;
         position: relative;
-        box-shadow:none;
+        box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-        
+
 
 
     }
+
     #menu {
-        display:flex;
+        display: flex;
     }
-    #menu > li {
+
+    #menu>li {
         padding-left: 2rem;
-    } 
+    }
+
     .nav-toggle-label {
         display: none;
     }
+
     #logo {
         font-size: 250%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
+
     main {
         margin-top: 150px;
     }
+
     #cover-text {
         width: 300px;
     }
 }
+
+/* Media query: laptops and larger 992px and up*/
+@media screen and (min-width: 992px){
+
+    #menu a:hover {
+        color:chocolate;
+    
+    }
+    }
+    
