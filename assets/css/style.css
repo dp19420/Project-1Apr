@@ -47,7 +47,8 @@ header a {
 
 main { color:black;
     flex: 1 0 auto;
-    margin-top: 74px;}
+    margin-top: 38px;
+    background-color: darkslategray;}
 
     /* Hero */
 #hero {
@@ -71,7 +72,7 @@ main { color:black;
 }
 #introduction {
     margin: auto;
-    background-color: darkslategray;
+    
 }
 
 #introduction > h2 {
@@ -130,4 +131,45 @@ nav {
 }
 .nav-toggle-label {
     font-size: 2rem;
+}
+
+/*Index page text*/
+
+#early-life {
+    padding-top: 20px;
+}
+
+/* Media query: tablets and larger 768px and up*/
+@media screen and (min-width: 768px){
+    /*Header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow:none;
+        width: fit-content;
+        padding-right: 1rem;
+        
+
+
+    }
+    #menu {
+        display:flex;
+    }
+    #menu > li {
+        padding-left: 2rem;
+    } 
+    .nav-toggle-label {
+        display: none;
+    }
+    #logo {
+        font-size: 250%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    main {
+        margin-top: 150px;
+    }
+    #cover-text {
+        width: 300px;
+    }
 }
