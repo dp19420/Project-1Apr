@@ -122,6 +122,22 @@ img {
     color: chocolate
 }
 
+
+#social-links {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+#social-links i {
+        font-size: 300%;
+        padding: 5%;
+        color: #faebd7;
+
+}
+
 /* navbar styles with dropdown */
 
 nav {
@@ -205,5 +221,4 @@ nav {
         color:chocolate;
     
     }
-    }
-    
+    }    
