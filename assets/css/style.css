@@ -27,6 +27,7 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 3px;
     color: burlywood;
+    text-align: center;
 }
 
 /*Header*/
@@ -127,6 +128,7 @@ img {
     min-width: 60vw;
     padding-top: 40px;
 }
+
 #social-links {
     text-align: center;
     padding: 20px 0;
@@ -135,10 +137,11 @@ img {
     list-style-type: none;
 
 }
+
 #social-links i {
-        font-size: 300%;
-        padding: 5%;
-        color: #faebd7;
+    font-size: 300%;
+    padding: 5%;
+    color: #faebd7;
 
 }
 
@@ -219,10 +222,10 @@ nav {
 }
 
 /* Media query: laptops and larger 992px and up*/
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
 
     #menu a:hover {
-        color:chocolate;
-    
+        color: chocolate;
+
     }
-    }    
+}
