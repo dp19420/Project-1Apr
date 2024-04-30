@@ -60,14 +60,17 @@ main {
     margin-top: 38px;
     background-color: darkslategray;
 }
+
 #youtube {
     text-align: center;
     min-width: 60vw;
     padding-top: 40px;
 }
+
 .border {
     border: 2px;
     border-style: dotted;
+    border-color: khaki;
 }
 
 /* Hero */
@@ -184,19 +187,16 @@ nav {
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    display: flex;
-    flex-direction: row;
-    flex-basis: auto;
     
     
-}
-#childhood {
-    min-width: 300px;
     
+
 }
-#school {
-    min-width: 300px;    
+#early-life > div {
+    padding: 10px;
+    font-size: 110%;
 }
+
 
 /* Media query: tablets and larger 768px and up*/
 @media screen and (min-width: 768px) {
@@ -238,8 +238,13 @@ nav {
     #cover-text {
         width: 300px;
     }
+
     iframe {
-        width: 420px; height: 315px;
+        width: 420px;
+        height: 315px;
+    }
+    #early-life {
+        display: flex;
     }
 }
 
@@ -250,7 +255,9 @@ nav {
         color: chocolate;
 
     }
+
     iframe {
-        width: 720px; height: 540px;
+        width: 720px;
+        height: 540px;
     }
 }
