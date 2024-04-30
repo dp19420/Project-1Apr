@@ -219,6 +219,9 @@ nav {
     #cover-text {
         width: 300px;
     }
+    iframe {
+        width: 420px; height: 315px;
+    }
 }
 
 /* Media query: laptops and larger 992px and up*/
@@ -227,5 +230,8 @@ nav {
     #menu a:hover {
         color: chocolate;
 
+    }
+    iframe {
+        width: 720px; height: 540px;
     }
 }
