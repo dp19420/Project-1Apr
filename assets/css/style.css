@@ -140,9 +140,8 @@ img {
 #social-links {
     text-align: center;
     padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
     list-style-type: none;
+    font-size: 200%;
 
 }
 
@@ -245,6 +244,12 @@ nav {
     }
     #early-life {
         display: flex;
+    }
+    #social-links {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        
     }
 }
 
