@@ -20,7 +20,7 @@ Why have i created this site?
 **Navigation Bar**
 
 - Featured on all pages, with links to Home, Media and Links pages.
-- Becomes a dropdown menu on smaler screen widths.
+- Becomes a dropdown menu on smaller screen widths.
 
 **Video**
 
@@ -29,14 +29,25 @@ Why have i created this site?
 
 
 ## Testing
-I have tested the small site by pressing all links and buttons on different screen sizes.
+I have tested the links and screen size adjustments on google chrome on pc and android.
+![multi screen mockup](assets/images/readme/mockup.png)
 
 Running it throu Lighthouse in the Google Devs tools to check acessability score.
+![Lighthouse test score](assets/images/readme/lighthouse.png)
 
 **Validator Testing**
 
 - HTML code tested via [W3 HTML Validator](https://validator.w3.org/)
++ Home
+![W3 test index](assets/images/readme/w3%20index.png)
++ Media
+![W3 test media](assets/images/readme/w3%20media.png)
++ Links
+![W3 test links](assets/images/readme/w3%20contact.png)
+
 - CSS code tested and clear via [W3 CSS Validator](https://jigsaw.w3.org/css-validator/)
++ CSS
+![W3 test css](assets/images/readme/css.png)
 
 ## Deployment
 
