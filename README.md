@@ -33,4 +33,11 @@ Why have i created this site?
 ## Credits
 
 ### Media
-- 
+
+- Images and video belongs to me.
+- Favicon generated with  adrian17's [Gallifreyan translator](https://adrian17.github.io/Gallifreyan/) and iconpack generated with [Real Favicon Generator](https://realfavicongenerator.net/)
+
+### Code
+
+- Navigation bar and Hero image coded with help of Love Running Walkthrou project.
+- Favicon code generated and copied from [Real Favicon Generator](https://realfavicongenerator.net/)
